@@ -7,20 +7,20 @@ export default class Header extends Component {
                 <nav style={{ backgroundColor: '#94b15b' }}>
                     <div className="container">
                     <div class="nav-wrapper">
-                        <Link to='/' className='brand-logo' style={{color: 'black'}}>CV</Link>
+                        <Link to='/project-cv' className='brand-logo' style={{color: 'black'}}>CV</Link>
                         <ul className='sidenav' id='side-nav'>
                             <li>
-                                <Link to='/' >
+                                <Link to='/project-cv' >
                                     <i className="fas fa-home" ></i>Home
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/experiences">
+                                <Link to="/project-cv/experiences">
                                     <i className="fas fa-id-badge"></i>Experiences
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/educations">
+                                <Link to="/project-cv/educations">
                                     <i className="fas fa-graduation-cap"></i>Educations
                                 </Link>
                             </li>
@@ -32,17 +32,17 @@ export default class Header extends Component {
                         </ul>
                         <ul id="nav-mobile" className="right hide-on-med-and-down">
                             <li>
-                                <Link to='/'>
+                                <Link to='/project-cv'>
                                     <i className="fas fa-home"></i> Home
                                 </Link>
                             </li>
                             <li>
-                                <Link to='/experiences'>
+                                <Link to='/project-cv/experiences'>
                                     <i className="fas fa-id-badge"></i> Experiences
                             </Link>
                             </li>
                             <li>
-                                <Link to='/educations'>
+                                <Link to='/project-cv/educations'>
                                     <i className="fas fa-graduation-cap"></i> Educations
                             </Link>
                             </li>
